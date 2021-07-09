@@ -37,6 +37,33 @@ body{
     }
 }
 
+/* 1600 */
+@media(max-width:1600px){
+    .nav .button {
+        position: relative;
+        right: -246px;
+    }
+    .about-section .about {
+        left: 345px;
+        position: absolute;
+    }
+    .about-section .notice {
+        position: absolute;
+        right: 345px;
+    }
+    .test-section .button {
+        position: absolute;
+        left: 319px;
+    }
+}
+
+/* 1280 */
+@media(max-width:1280px){
+    .test-section .button {
+        position: absolute;
+        left: 483px;
+    }
+}
 
 /* 1400 */
 
@@ -128,36 +155,6 @@ body{
         padding: 0 6px;
     }
 }
-
-
-
-
-/* 
-@media (max-width:1300px){
-    .footer-section .bg .up a {
-        position: relative;
-        left: 1050px;
-    }
-    .test-section .button span {
-        position: relative;
-        left: 120px;
-    }
-} */
-
-/* 1000 */
-
-/* 
-@media (max-width:1300px){
-    .footer-section .bg .up a {
-        position: relative;
-        left: 1050px;
-    }
-    .test-section .button span {
-        position: relative;
-        left: 120px;
-    }
-} */
-
 
 
 /* 992 */
@@ -634,6 +631,7 @@ body{
         text-align: center;
         margin-top: -50px;
         margin-bottom: -67px;
+        margin-left: 40px;
     }
     .admission-section .admition-right .content p {
         width: 232px;
@@ -680,6 +678,13 @@ body{
     .teacher-section .teacher-bottom .item .pop-up h3 {
         margin-top: 0;
     }
+    .teacher-section .teacher-bottom .item:hover .pop-up {
+        visibility: visible;
+        opacity: 1;
+        z-index: 9999;
+        transform: translateY(0) scale(1);
+        margin-top: 22px;
+    }
    
     .test-section .test-bottom {
         margin-top: 20px;
@@ -692,6 +697,10 @@ body{
         width: 100%;
         text-align: center;
         margin-top: 30px;
+    }
+    .test-section .button {
+        position: absolute;
+        left: 480px;
     }
     .test-section .button span {
         position: relative;
@@ -757,15 +766,15 @@ body{
 @media(max-width:700px){
     .about-section .about {
         position: absolute;
-        left: 195px;
+        left: 168px;
     }
     .about-section .notice {
         position: absolute;
-        right: 248px;
+        right: 183px;
         top: 1123px;
     }
     .subject-section {
-        padding-top: 360px;
+        padding-top: 380px;
     }
     .teacher-section .teacher-bottom .item .pop-up {
         position: absolute;
@@ -775,10 +784,55 @@ body{
         position: relative;
         left: -61px;
     }
+    .course-section .course-bottom .course-bottom-item {
+        width: 100%;
+    }
+    .course-section .course-bottom .course-bottom-item .image img {
+        width: 100%;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 265px;
+        bottom: 120px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        top: 3px;
+        left: 110px;
+    }
+    .test-section .button {
+        position: absolute;
+        left: 377px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .image {
+        width: 100%;
+
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: 191px;
+    }
+    .news-bottom .news-bottom-right {
+        left: 0px;
+        width: 100%;
+    }
+    .footer-section .footer-top .shakil {
+        width: 100%;
+        position: relative;
+        left: 200px;
+    }
+    .footer-section .footer-top .shakil {
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
 }
 
 /* 690 */
-
+@media(max-width:630px){
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: 137px;
+    }
+}
 
 @media(max-width:690px){
     .footer-section .bg .up a {
@@ -795,16 +849,6 @@ body{
         left: 532px;
     }
 }
-/* @media(max-width:581px){
-    .primary-menu input {
-        position: absolute;
-        top: 14px;
-    }
-    .primary-menu span {
-        position: absolute;
-        top: 10px;
-    }
-} */
 
 @media(max-width:590px){
     .primary-menu input {
@@ -864,21 +908,8 @@ body{
         position: relative;
         left: -210px;
     }
-    .news-bottom .news-bottom-left {
-        width: 100%;
-        position: relative;
-        left: 106px;
-        text-align: center;
-    }
     .news-bottom .news-bottom-left .news-bottom-left-content .content {
-        position: relative;
-        left: -191px;
-    }
-    .news-bottom .news-bottom-right {
-        width: 100%;
-        position: relative;
-        left: 0;
-        margin-top: 10px;
+        margin-right: 86px;
     }
     .newsletter-section .newsletter-left {
         width: 100%;
@@ -906,5 +937,411 @@ body{
     .footer-section .bg .up a {
         position: relative;
         left: 450px;
+    }
+}
+@media(max-width:500px){
+    .nav .button {
+        position: absolute;
+        right: -66px;
+    }
+    .about-section .about {
+        position: absolute;
+        left: 100px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -143px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: 2px;
+    }
+    .about-section .notice {
+        right: 137px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        left: 31px;
+    }
+    .test-section .test-bottom .item p {
+        width: 350px;
+        font-size: 16px;
+    }
+    .footer-section .footer-top .footer-widjet {
+        position: relative;
+        left: 130px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 380px;
+    }
+}
+
+@media(max-width:450px){
+    .topbar {
+        height: 120px;
+    }
+    .nav .button {
+        position: absolute;
+        right:3px;
+    }
+    .primary-menu span {
+        position: absolute;
+        right: 0px;
+    }
+    .primary-menu input {
+        position: absolute;
+        right: 4px;
+    }
+    .primary-menu .mobile-menu-check:checked ~ ul {
+        margin-left: 68px;
+    }
+    .slider-content h1 {
+        font-size: 25px;
+    }
+    .slider-content p {
+        font-size: 13px;
+        width: 300px;
+    }
+    .about-section .about {
+        position: absolute;
+        left: 84px;
+    }
+    .about-section .notice {
+        right: 97px;
+    }
+    .about-section .about {
+        position: absolute;
+        left: 28px;
+    }
+    .about-section .notice {
+        right: 68px;
+    }
+    .subject-section .subject-bottom .subject-bottom-items .item .content {
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    .course-section .course-bottom .course-bottom-item .content .content01 .paragraph-right span {
+        left: 0px;
+        top: 5px;
+        font-size: 10px;
+    }
+   .course-section .course-bottom .course-bottom-item .content .content02 p {
+        font-size: 12px;
+    }
+    .answer-section .answer-left .content p {
+        width: 300px;
+    }
+    .admission-section .admition-right .content h2 {
+        font-size: 20px;
+    }
+    .answer-section .answer-left .content h2 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .answer-section .answer-left .content p {
+        width: 200px;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 91px;
+        bottom: 24px;
+    }
+   
+
+    .play-animation-btn {
+        position: absolute;
+        right: 135px;
+        bottom: 46px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        width: 253px;
+        height: 261px;
+    }
+    .test-section .test-bottom .item p {
+        width: 280px;
+        font-size: 15px;
+    }
+    .test-section .test-top h6 {
+        font-size: 10px;
+    }
+    .test-section .test-top h1 {
+        font-size: 25px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -178px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .image {
+        margin-left: -38px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: -18px;
+    }
+    .news-bottom .news-bottom-right .content-left .content01 {
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 26px;
+    }
+    .news-bottom .news-bottom-right .content-left .content01 span {
+        font-size: 8px;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 h6 {
+        font-size: 10px;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 h2 {
+        font-size: 15px;
+    }
+    .newsletter-section .newsletter-right input {
+        margin-bottom: 30px;
+    }
+    .footer-section .footer-top .footer-widjet {
+        position: relative;
+        left: 100px;
+    }
+    .footer-section .footer-bottom .footer-bottom-image {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-section .footer-bottom .footer-bottom-menu {
+        position: absolute;
+        left: 80px;
+    }
+    .footer-section .footer-bottom .footer-bottom-menu ul {
+        margin-left: -143px;
+    }
+    .footer-section .footer-bottom .footer-bottom-content {
+        margin-bottom: 20px;
+    }
+    .footer-section .footer-bottom .footer-bottom-content p {
+        font-size: 10px;
+        position: relative;
+        top: 60px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 308px;
+    }
+}
+@media(max-width:360px){
+   
+   
+
+}
+@media(max-width:360px){
+    .topbar {
+        height: 100px;
+    }
+    .topbar-left span {
+        font-size: 8px;
+    }
+    .topbar-right span {
+        font-size: 9px;
+    }
+    .topbar-right a {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+    .nav .logo a {
+        margin-top: 26px;
+    }
+    .primary-menu ul li a {
+        padding: 0px 10px;
+        font-size: 8px;
+        line-height: 33px;
+    }
+    .primary-menu ul li a i {
+        display: none;
+    }
+    .nav .menu .national ul li ul {
+        position: absolute;
+        left: 50px;
+    }
+    .shop {
+        padding: 20px;
+        position: absolute;
+        top: 35px;
+        left: -164px;
+    }
+    .slider-content h1 {
+        font-size: 20px;
+    }
+    .slider-content p {
+        font-size: 10px;
+        width: 200px;
+        line-height: 20px;
+    }
+    .about-section .about {
+        position: absolute;
+        left: 0px;
+    }
+    .about-section .notice {
+        right: 40px;
+    }
+    .subject-section .subject-top .subject-top-left h6 {
+        font-weight: 700;
+    }
+    .subject-section .subject-top .subject-top-left h2 {
+        font-size: 20px;
+    }
+    .subject-section .subject-top .subject-top-right a {
+        font-size: 8px;
+        padding: 10px 20px;
+        font-weight: 600;
+        margin-top: 4px;
+    }
+    .subject-section .subject-bottom .subject-bottom-items .item .content h5 {
+        font-size: 12px;
+    }
+    .course-section .course-top .course-top-left h6 {
+        font-weight: 700;
+    }
+    .course-section .course-top .course-top-left h2 {
+        font-size: 20px;
+    }
+    .course-section .course-top .course-top-right a {
+        font-size: 8px;
+        padding: 10px 20px;
+        font-weight: 600;
+        margin-top: 4px;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 99px;
+        bottom: 26px;
+    }
+    .teacher-section .teacher-top .teacher-top-left h6 {
+        font-weight: 700;
+    }
+    .teacher-section .teacher-top .teacher-top-left h2 {
+        font-size: 20px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        width: 70%;
+        height: 0px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up h3 {
+        margin-top: -84px;
+        font-size: 13px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up span {
+        font-size: 10px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up ul li {
+        padding: 0 8px;
+        font-size: 10px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -239px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        top: 33px;
+        padding-bottom: 28px;
+    }
+
+    .test-section .test-top h1 {
+        font-size: 20px;
+    }
+    .test-section .test-bottom .item p {
+        width: 200px;
+        font-size: 15px;
+    }
+    .course-section .course-bottom .course-bottom-item .content .content02 p {
+        font-size: 10px;
+    }
+    .course-section .course-bottom .course-bottom-item .content .content03 .content03-right span {
+        padding: 2px 7px;
+        font-size: 8px;
+    }
+    .news-section .test-top h6 {
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    .news-section .test-top h1{
+        font-size: 20px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .image {
+        margin-left: -69px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: -34px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content span {
+        font-size: 10px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content h4 {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content a {
+        font-size: 10px;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 {
+        text-align: center;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 h6 {
+        font-size: 8px;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 h2 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .newsletter-section .newsletter-left h1 {
+        font-size: 10px;
+        line-height: 1rem;
+    }
+    .newsletter-section .newsletter-left h6 {
+        font-weight: 500;
+        font-size: 8px;
+    }
+    .newsletter-section .newsletter-right input {
+        padding: 8px;
+        width: 113px;
+        font-size: 8px;
+        margin-left: -20px;
+        margin-bottom: 10px;
+    }
+    .newsletter-section .newsletter-right a {
+        padding: 5px 10px;
+        margin-left: -4px;
+        font-size: 10px;
+    }
+    .footer-section .footer-top .footer-widjet {
+        position: relative;
+        left: 40px;
+    }
+    .footer-section .footer-bottom .footer-bottom-content p {
+        font-size: 9px;
+        position: relative;
+        top: 71px;
+    }
+    .footer-section .footer-bottom .footer-bottom-content p span {
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
+@media(max-width:320px){
+    .play-animation-btn {
+        position: absolute;
+        right: 68px;
+        bottom: 11px;
+    }
+    .test-section .test-bottom .item p {
+        width: 130px;
+        font-size: 14px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -239px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        top: -3px;
+        padding-bottom: 28px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: -65px;
     }
 }
