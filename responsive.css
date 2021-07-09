@@ -1344,4 +1344,8 @@ body{
     .news-bottom .news-bottom-left .news-bottom-left-content .content {
         margin-right: -65px;
     }
+    .about-section .about {
+        position: absolute;
+        left: 10px;
+    }
 }
